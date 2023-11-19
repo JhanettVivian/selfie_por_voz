@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu App de Colagem</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <!--Link da biblioteca da Webcam.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js" integrity="sha512-dQIiHSl2hr3NWKKLycPndtpbh5iaHLo6MwrXm7F0FM5e+kL2U16oE9uIwPHUl6fQBeCthiEuV/rzP3MiAB8Vfw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <center class="container">
+        <h1>APLICATIVO DE COLAGEM</h1>
+        <hr>
+        <h4>Assim que o pop-up aparecer, clique em <b>Permitir</b> Depois fale um comando.</h4>
+        <h3>Diga "selfie" para tirar suas selfies e fazer a colagem.</h3>
+        <button onclick="Start();" class="btn btn-info">Iniciar</button>
+        <h4>Pressione o botão Iniciar.</h4>
+        <label for="">Sua câmera irá aparecer aqui:</label>
+        <div id="camera"></div>
+        <label for="">Sua selfie irá aparecer aqui:</label>
+        <div class="resultShow">
+            <div id="resultado1"><img src="https://static.escolakids.uol.com.br/2023/08/paisagem-natural.jpg" alt="" class="img-responsive" id="result1"></div>
+            <div id="resultado2"><img src="https://static.escolakids.uol.com.br/2023/08/paisagem-natural.jpg" alt="" class="img-responsive" id="result2"></div>
+            <div id="resultado3"><img src="https://static.escolakids.uol.com.br/2023/08/paisagem-natural.jpg" alt="" class="img-responsive" id="result3"></div>
+            
+        </div>
+    </center>
+    <div class="footer">Desenvolvido por Jhanett Vivian - 2023</div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
